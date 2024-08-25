@@ -2,10 +2,11 @@ console.log('esse trecho será exibido no console')
 
 alert('Olá mundo!')
 
-alert('Dá pra usar o atalho script:src no código para inserir um script')
+let num1 = prompt('Digite um numero ')
+let num2 = prompt('Digite outro numero ')
 
-confirm('Janela de confirmação')
-
-alert('Se o usuário clicar em ok, retorna TRUE. Se clicar em cancelar, retorna FALSE')
-
-prompt('Funciona similar à função input do python')
+let resultado = 0
+function soma(){
+    resultado = parseFloat(num1)+parseFloat(num2)
+    return
+}

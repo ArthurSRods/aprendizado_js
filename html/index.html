@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Minhas anotações em HTML</title>
     <a><link rel="stylesheet" href="sheets.css"></a>
 </head>
 <body>
     <script src="index.js"></script>
-    <h1>Meu site</h1>
-    <h2>Meu site</h2>
-    <h3>Meu site</h3>
-    <h4>Meu site</h4>
-    <h5>Meu site</h5>
-    <p>Meu site</p>
-    <div>Meu site</div>
+    <h1>Minhas anotações em HTML</h1>
+    <h2 class="função">Função Alert</h2>
+    <p>alert(): cria uma janela de alert.</p>
+    <p>Retorna um valor undefined (não retorna valor)</p>
+    <h2 class="função">Função Confirm</h2>
+    <p>confirm(): cria uma janela de confirmação.</p>
+    <p>Retorna um valor TRUE (caso o usuário clique em confirm) ou FALSE (caso o usuário clique em cancelar)</p>
+    <h2 class="função">Função Prompt</h2>
+    <p>prompt(): cria uma janela de formulario.</p>
+    <p>Retorna o valor digitado pelo usuário no campo, que pode ser capturado para uma variável para operações posteriores.</p>
+    <button onclick='soma()'>Clique aqui para somar os valores</button>
+    <button type="resultado" onclick='alert(`O resultado da soma é ${resultado}`)'>Clique para ver o resultado</button>
+
+    <p class="dica">Dá pra usar apenas p, h1, h2, h3, div, etc + Enter para inserir o mesmo no HTML</p>
+    <p class="dica">Dá pra usar o atalho script:src no código para inserir um script</p>
 </body>
 </html>
